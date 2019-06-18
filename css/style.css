@@ -7,6 +7,7 @@
 .wrapper {
   display: grid;
   width: 100vw;
+  max-width: 1366px;
   height: 100vh;
   grid-template-rows: 85px auto;
   grid-template-columns: 300px auto;
@@ -16,7 +17,8 @@
   grid-column-gap: 10px;
   */
   grid-gap: 5px 10px; 
-  grid-template-areas: "header header" "menu content"
+  grid-template-areas: "header header" "menu content";
+  margin: 0 auto;
 }
 
 .box {
